@@ -91,7 +91,7 @@ html,body{
   -ms-transition: opacity 0.3s 0.3s ease; 
   -o-transition: opacity 0.3s 0.3s ease; 
   transition: opacity 0.3s 0.3s ease; 
-  opacity: 0;
+  opacity: 100;
 }
 
 .fix{position: relative;clear: both;}
@@ -194,6 +194,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background-size:cover;
     background-position: center;
     height:890px;
+    z-index:999;
 }
 .welcome-hero:before{
     position:absolute;
